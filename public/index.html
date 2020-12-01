@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quiz</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer="true"></script>  
+</head>
+
+<body>
+    <header>
+        <div id='top'>
+            <h2>WPR</h2>
+            <div id="mern">
+                <div>M</div>
+                <div>E</div>
+                <div>R</div>
+                <div>N</div>
+            </div>
+        </div>
+    </header>
+
+    <article>
+
+        <section id="quiz-name">
+            <h1>HTML Quiz</h1>
+        </section>
+        <p id="author-name">By Van Hiep</p>
+        <section id="introduction">
+            <h1>The Test</h1>
+            <p>The test contains 10 questions and there is no time limit.</p>
+            <p>The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.</p>
+            <h1>Count Your Score</h1>
+            <p>You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed.
+                Maximum score is 10 points.</p>
+            <div id="start-quiz">
+                <h1>Start the quiz</h1>
+                <p>Good luck!</p>
+                <button id='startBtn'>Start the HTML quiz ></button>
+            </div>
+        </section>
+
+        <section id="attempt-quiz" style="display: none;">
+            <div class="items">
+                <h1 class="heading">Question 1 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="question1" type="radio">
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="question1" type="radio">
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="question1" type="radio">
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="question1" type="radio">
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <h1 class="heading">Question 2 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="question2" type="radio">
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="question2" type="radio">
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="question2" type="radio">
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="question2" type="radio">
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <h1 class="heading">Question 3 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="radio" type="radio" checked>
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="radio" type="radio" checked>
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="radio" type="radio" checked>
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="radio" type="radio" checked>
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <h1 class="heading">Question 4 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="radio" type="radio" checked>
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="radio" type="radio" checked>
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="radio" type="radio" checked>
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="radio" type="radio" checked>
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <h1 class="heading">Question 5 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="radio" type="radio" checked>
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="radio" type="radio" checked>
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="radio" type="radio" checked>
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="radio" type="radio" checked>
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <h1 class="heading">Question 6 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="radio" type="radio" checked>
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="radio" type="radio" checked>
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="radio" type="radio" checked>
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="radio" type="radio" checked>
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <h1 class="heading">Question 7 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="radio" type="radio" checked>
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="radio" type="radio" checked>
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="radio" type="radio" checked>
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="radio" type="radio" checked>
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <h1 class="heading">Question 8 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="radio" type="radio" checked>
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="radio" type="radio" checked>
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="radio" type="radio" checked>
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="radio" type="radio" checked>
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <h1 class="heading">Question 9 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="radio" type="radio" checked>
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="radio" type="radio" checked>
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="radio" type="radio" checked>
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="radio" type="radio" checked>
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <h1 class="heading">Question 10 of 10</h1>
+                <p class="question">Question 1</p>
+                <div class="options">
+                    <div class="radio">
+                        <input id="radio-1" name="radio" type="radio" checked>
+                        <label class="radio-label">A</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-2" name="radio" type="radio" checked>
+                        <label class="radio-label">B</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-3" name="radio" type="radio" checked>
+                        <label class="radio-label">C</label>
+                    </div>
+                    <div class="radio">
+                        <input id="radio-4" name="radio" type="radio" checked>
+                        <label class="radio-label">D</label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="submit_box">
+                <button id='submit_btn'>Submit your answers ></button>
+            </div>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <p>Are you sure want to finish the quiz?</p>
+                    <div style="display: flex; justify-content: space-around; margin-bottom: 16px;">
+                        <button style="width: 60px;" id='okBtn'>Ok</button>
+                        <button style="width: 60px;" id='cancelBtn'>Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="review-quiz" style="display: none;">
+            <div id="result_box">
+                <h1>Result</h1>
+                <div id='score'>1/10</div>
+                <b id="percentage" style="margin-top: 10px;">10%</b>
+                <p id='suggest'>Practice more to improve it :D</p>
+                <button id='tryagainBtn'>Try again</button>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

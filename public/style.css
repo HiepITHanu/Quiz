@@ -1,0 +1,229 @@
+
+body {
+    margin: 0;
+    width: 700px;
+    margin: auto;
+}
+
+#top {
+    height: 80px;
+    border: 1px thick #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#top h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ee3322;
+}
+
+#mern {
+    display: flex;
+}
+
+#mern div {
+    background-color: #ffee00;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* -ms-transform: rotate(30deg); */
+    transform: rotate(-30deg);
+}
+
+#quiz-name {
+    height: 425px;
+    background-image: url(./images/background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quiz-name h1 {
+    max-width: 75%;
+    font-size: 60px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Pangolin', 'Trebuchet MS', cursive;
+    padding: 10px;
+}
+
+#author-name {
+    text-align: center;
+    font-size: 14px;
+    color: #222222;
+    font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif;
+}
+
+#introduction{
+    font-size: 18px;
+    color: #222222;
+    font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif;
+    margin-bottom: 50px;
+}
+
+#introduction h1{
+    font-size: 28px;
+}
+
+#start-quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1!important;
+    padding-bottom: 28px;
+}
+
+#start-quiz button{
+    color: white;
+    padding: 18px 10px 18px 10px;
+    text-decoration: none;
+    background-color: #2196F3;
+    border: none;
+    cursor: pointer;
+}
+
+#start-quiz button :hover{
+    background-color: #0d8bf2;
+}
+
+#attempt-quiz{
+    /* font-size: 18px; */
+    color: #222222;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.radio{
+    padding: 15px;
+    background-color:  #f1f1f1;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.radio input{
+    cursor: pointer;
+}
+
+.radio label{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.radio:hover{
+    background-color: #ddd;
+}
+
+#review-quiz{
+    font-size: 18px;
+    color: #222222;
+    font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif;
+}
+
+#submit_box{
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1!important;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border: 1px solid #ccc;
+}
+
+#submit_box button{
+    background-color:  #4CAF50;
+    padding: 18px 10px 18px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submit_box button:hover{
+    background-color: #46a049;
+}
+
+#result_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1!important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 28px;
+    justify-content: space-around;
+}
+
+#result_box button{
+    background-color:  #2196F3;
+    padding: 18px 10px 18px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 17%;
+}
+
+.modal-content button{
+    cursor: pointer;
+}
+
+.correctSpan{
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 700px){
+    body{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #mern{
+        display: none;
+    }
+}
